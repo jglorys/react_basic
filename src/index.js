@@ -8,6 +8,12 @@ import AppProducts from './basic/AppProducts';
 import AppXY from './AppXY';
 import AppMentor from './AppMentor';
 import AppMentors from './AppMentors';
+import AppForm from './AppForm';
+import AppWrap from './AppWrap';
+import AppCard from './AppCard';
+import AppTheme from './AppTheme';
+import AppMentorsButton from './AppMentorsButton';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +22,12 @@ root.render(
     {/* <AppCounter /> */}
     {/* <AppProducts /> */}
     {/* <AppXY /> */}
-    <AppMentors />
+    {/* <AppMentors /> */}
+    {/* <AppForm /> */}
+    {/* <AppWrap /> */}
+    {/* <AppCard /> */}
+    {/* <AppTheme /> */}
+    <AppMentorsButton />
   </React.StrictMode>
 );
 
